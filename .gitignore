@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Checkpoints and large files (use Git LFS for important ones)
+# Exclude all checkpoint files by default
+FQR+TRLSinCrypto/checkpoints/**/*.pkl
+FQR+TRLSinCrypto/checkpoints/**/*.csv
+FQR+TRLSinCrypto/checkpoints/**/*.h5
+FQR+TRLSinCrypto/checkpoints/**/*.ckpt
+
+# But track important checkpoint files with Git LFS
+!FQR+TRLSinCrypto/checkpoints/**/alpha_pool_*.pkl
+!FQR+TRLSinCrypto/checkpoints/**/factor_analysis_*.csv
+!FQR+TRLSinCrypto/checkpoints/**/factor_matrix_*.csv
+!FQR+TRLSinCrypto/checkpoints/**/factors_*.pkl
+
+# Data files (exclude large data files)
+*.feather
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+

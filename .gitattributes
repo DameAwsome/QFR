@@ -1,2 +1,7 @@
-FQR+TRLSinCrypto/checkpoints/ppo_reward_shaping_crypto/alpha_pool_seed5_interrupted.pkl filter=lfs diff=lfs merge=lfs -text
+# Git LFS tracking for large files
+*.pkl filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+*.feather filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
